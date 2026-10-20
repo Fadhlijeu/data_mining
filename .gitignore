@@ -1,0 +1,50 @@
+# Build & Artifacts
+/build/
+*.apk
+*.aab
+*.zip
+*.tar
+*.gz
+.artifacts/
+.artifacts/**
+
+# Android / Gradle
+android/.gradle/
+android/app/build/
+android/app/debug/
+android/app/release/
+android/app/profile/
+.gradle/
+*.flat
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/coverage/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+
+# IDE / IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Symbolication / Maps
+app.*.symbols
+app.*.map.json
